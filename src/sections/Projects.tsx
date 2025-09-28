@@ -1,12 +1,12 @@
 "use client";
 
-import cypressImage from "../../public/images/projects/craftiFy.png";
-import breaditImage from "../../public/images/projects/breadit.png";
-import bookmarkImage from "../../public/images/projects/bookmark.jpg";
+import craftiFy from "../../public/images/projects/craftiFy.png";
+import landingPage from "../../public/images/projects/landingPage.png";
+import bookmarkImage from "../../public/images/projects/bookmark.png";
 import ecommerceImage from "../../public/images/projects/ecommerce.png";
 import galleryImage from "../../public/images/projects/gallery.png";
 import rockImage from "../../public/images/projects/rockpaperscissor.png";
-import spaceImage from "../../public/images/projects/space.jpg";
+import spaceImage from "../../public/images/projects/spaceImage.png";
 import tmsImage from "../../public/images/projects/tms.png";
 import threadsImage from "../../public/images/projects/threads.png";
 import ratemyuniImage from "../../public/images/projects/ratemyuni.jpg";
@@ -34,14 +34,14 @@ import { Globe2 } from "lucide-react";
 
 const sideProjects = [
   {
-    name: "Breadit",
+    name: "Agentic.ai",
     description:
-      "Breadit is a full-stack website built using modern web technologies, including Next.js with the App Router, TypeScript, and Tailwind CSS. The project provides a smooth, dynamic user experience with features like infinite scrolling for loading posts, authentication via NextAuth with Google integration, and personalized feeds for authenticated users. It employs optimistic updates to enhance the user experience by reflecting changes immediately while processing, and advanced caching mechanisms using Upstash Redis. ",
-    image: breaditImage,
-    link: "https://breadit-nextjs.vercel.app",
-    repo: "https://github.com/itsyaba/breadit",
+      "Agentic AI is a sleek, modern single-page site showcasing a cutting-edge artificial intelligence product or service. The design is minimalist, with strong visual hierarchy and engaging typography. Clear sections walk users through benefits, features, and use cases — all to build trust and excitement. Calls to action stand out, guiding users to “get started” or explore further. Overall, Agentic AI presents a compelling, polished front for an innovative AI offering. ",
+    image: landingPage,
+    link: "https://landing-page-sage-ten-61.vercel.app/",
+    repo: "https://github.com/ycode37/landing-page",
     tech: [
-      "Next.js",
+      "React.js",
       "TailwindCSS",
       "Postgres",
       "Prisma",
@@ -58,37 +58,37 @@ const sideProjects = [
     name: "CraftiFy",
     description:
       "This project convert Simple Texts to Images using AI and this integration innovates us how we can use tech to enhace productibity an for some credits it's free and then you can Pay for Extra services We enhanced On On how we can AI to cahnge text To images Using ClipDrop APis  integration, and personalized feeds for authenticated users. It employs optimistic updates to enhance the user experience by reflecting changes immediately while processing, .",
-    image: cypressImage,
+    image: craftiFy,
     link: "https://crafti-fy-to4c.vercel.app/",
     repo: "https://github.com/ycode37/CraftiFy",
-    tech: ["Next.js", "TailwindCSS", "MongoDB", "Express", "Node.js", "Clerk"],
+    tech: ["React.js", "TailwindCSS", "MongoDB", "Express", "Node.js", "Clerk"],
     isTopProject: true,
     isNextjs: true,
     isMern: false,
     isHtmlCss: false,
   },
-  {
-    name: "Rate My Uni (Hackathon Project)",
-    description:
-      "The project is focused on building a simple, yet functional, web-based interface where students and users can rate universities based on various criteria (e.g., campus, academics). It aims to create a platform where users can submit and view ratings for different universities, much like popular 'Rate My Professor' services but focused on universities as a whole.",
-    image: ratemyuniImage,
-    link: "https://ratemyuniversity.com",
-    repo: "https://github.com/itsyaba/rate-my-uni",
-    tech: ["Next.js", "TailwindCSS", "MongoDB", "Express", "Node.js"],
-    isTopProject: true,
-    isNextjs: true,
-    isMern: false,
-    isHtmlCss: false,
-  },
+  // {
+  //   name: "Rate My Uni (Hackathon Project)",
+  //   description:
+  //     "The project is focused on building a simple, yet functional, web-based interface where students and users can rate universities based on various criteria (e.g., campus, academics). It aims to create a platform where users can submit and view ratings for different universities, much like popular 'Rate My Professor' services but focused on universities as a whole.",
+  //   image: ratemyuniImage,
+  //   link: "https://ratemyuniversity.com",
+  //   repo: "https://github.com/itsyaba/rate-my-uni",
+  //   tech: ["Next.js", "TailwindCSS", "MongoDB", "Express", "Node.js"],
+  //   isTopProject: true,
+  //   isNextjs: true,
+  //   isMern: false,
+  //   isHtmlCss: false,
+  // },
   {
     name: "Task Management Platform",
     description:
-      "Project management dashboard built with modern web technologies. It leverages Next.js for the frontend, styled with Tailwind CSS, and uses Redux Toolkit and Material UI for state management and data grid handling. The backend is powered by Node.js and Express, with Prisma as the ORM to interact with a PostgreSQL database.",
+      "This is a clean, functional task management web app built with Vite + React. It features an intuitive interface where users can add, track, and manage tasks effortlessly. The layout emphasizes clarity with task lists, status indicators, and interactive controls for editing or deleting entries. Minimalist styling and responsive design keep focus on productivity. Overall, it feels like a polished, user-friendly solution for organizing and staying on top of daily to-dos.",
     image: tmsImage,
-    link: "https://tms.comhttps://tms-platforms.vercel.app",
-    repo: "https://github.com/itsyaba/tms-platform",
+    link: "https://task-manager-sigma-sage.vercel.app/",
+    repo: "https://github.com/ycode37/Task-Manager",
     tech: [
-      "Next.js",
+      "React.js",
       "TailwindCSS",
       "NeonDB",
       "Express",
@@ -102,47 +102,47 @@ const sideProjects = [
     isMern: false,
     isHtmlCss: false,
   },
+  // {
+  //   name: "Ethiopian Elegance",
+  //   description:
+  //     " E-commerce website designed to sell traditional Ethiopian clothing, jewelry, and home goods. The platform allows users to browse products by category, view detailed descriptions, and add items to a shopping cart. It includes essential e-commerce functionalities such as user account creation, order history tracking, and checkout with payment integration using Stripe.",
+  //   image: ecommerceImage,
+  //   link: "https://ethiopian-elegance.onrender.com",
+  //   repo: "https://github.com/itsyaba/Ethiopian-Elegance",
+  //   tech: [
+  //     "MongoDB",
+  //     "Express",
+  //     "React.js",
+  //     "Node.js",
+  //     "TailwindCSS",
+  //     "Stripe",
+  //     "Mantine UI",
+  //   ],
+  //   isTopProject: true,
+  //   isNextjs: false,
+  //   isMern: true,
+  //   isHtmlCss: false,
+  // },
+  // {
+  //   name: "Gallery Glimpses",
+  //   description:
+  //     "A gallery website where users can upload images in either private or public mode. If an image is set to private, only the uploader can view it. Public images are visible to all users.",
+  //   image: galleryImage,
+  //   link: "https://gallery-glimpse-web.vercel.app",
+  //   repo: "https://github.com/itsyaba/Gallery_Glimpse_Frontend",
+  //   tech: ["React.js", "TailwindCSS", "MongoDB", "Express", "Node.js"],
+  //   isTopProject: false,
+  //   isNextjs: false,
+  //   isMern: true,
+  //   isHtmlCss: false,
+  // },
   {
-    name: "Ethiopian Elegance",
+    name: "Language Translator",
     description:
-      " E-commerce website designed to sell traditional Ethiopian clothing, jewelry, and home goods. The platform allows users to browse products by category, view detailed descriptions, and add items to a shopping cart. It includes essential e-commerce functionalities such as user account creation, order history tracking, and checkout with payment integration using Stripe.",
-    image: ecommerceImage,
-    link: "https://ethiopian-elegance.onrender.com",
-    repo: "https://github.com/itsyaba/Ethiopian-Elegance",
-    tech: [
-      "MongoDB",
-      "Express",
-      "React.js",
-      "Node.js",
-      "TailwindCSS",
-      "Stripe",
-      "Mantine UI",
-    ],
-    isTopProject: true,
-    isNextjs: false,
-    isMern: true,
-    isHtmlCss: false,
-  },
-  {
-    name: "Gallery Glimpses",
-    description:
-      "A gallery website where users can upload images in either private or public mode. If an image is set to private, only the uploader can view it. Public images are visible to all users.",
-    image: galleryImage,
-    link: "https://gallery-glimpse-web.vercel.app",
-    repo: "https://github.com/itsyaba/Gallery_Glimpse_Frontend",
-    tech: ["React.js", "TailwindCSS", "MongoDB", "Express", "Node.js"],
-    isTopProject: false,
-    isNextjs: false,
-    isMern: true,
-    isHtmlCss: false,
-  },
-  {
-    name: "Space Tourism Website ",
-    description:
-      "Frontend Mentor Challenge to build a space tourism landing page.",
+      "This is a sleek web app for language translation. It allows users to input text — up to 5,000 characters — or upload a document. The “From” language can be auto-detected or chosen manually, and users select the “To” language for translation. After translation, there’s an option to download the result as a document. The interface is clean and simple, making the process straightforward and user-friendly.",
     image: spaceImage,
-    link: "https://frontend-mentor-rock-paper-scissors-challenge.netlify.app",
-    repo: "https://github.com/itsyaba/Rock--Paper-scissors",
+    link: "https://language-translator-kappa-nine.vercel.app/",
+    repo: "https://github.com/ycode37/Language-Translator",
     tech: ["JavaScript ", "HTML", "CSS"],
     isTopProject: false,
     isNextjs: false,
@@ -150,12 +150,12 @@ const sideProjects = [
     isHtmlCss: true,
   },
   {
-    name: "Clipboard ",
+    name: "Rejouice Adaptation ",
     description:
-      "A history of everything you copy Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.",
+      "This is a brand-agency–style landing page named Rejouice. The page projects expertise in strategy, design, and performance marketing. It presents the agency as a “growth accelerator” that partners with founders to build market-defining brands. The tone is confident and aspirational, emphasizing experience (“since 2013”) and global recognition. With minimal, bold typography and clear messaging, it aims to attract clients looking to elevate their brand and drive sustainable growth.",
     image: bookmarkImage,
-    link: "https://frontend-mentor-rock-paper-scissors-challenge.netlify.app",
-    repo: "https://github.com/itsyaba/Rock--Paper-scissors",
+    link: "https://rejouice-static-clone-js.vercel.app/",
+    repo: "https://github.com/ycode37/Rejouice-Static-Clone-Js",
     tech: ["JavaScript ", "HTML", "CSS"],
     isTopProject: false,
     isNextjs: false,
@@ -163,29 +163,29 @@ const sideProjects = [
     isHtmlCss: true,
   },
   {
-    name: "Rock Paper Scissors Game",
-    description: "A Rock Paper Scissors Game",
+    name: "Sticky Notes",
+    description: "Sticky notes",
     image: rockImage,
-    link: "https://frontend-mentor-rock-paper-scissors-challenge.netlify.app",
-    repo: "https://github.com/itsyaba/Rock--Paper-scissors",
+    link: "https://sticky-notes-red-theta.vercel.app/",
+    repo: "https://github.com/ycode37/StickyNotes",
     tech: ["JavaScript ", "HTML", "CSS"],
     isTopProject: false,
     isNextjs: false,
     isMern: false,
     isHtmlCss: true,
   },
-  {
-    name: "Threads Clone",
-    description: "Threads Clone",
-    image: threadsImage,
-    link: "https://threads-clone-nextjs-project.vercel.app/",
-    repo: "https://github.com/itsyaba/Threads-Clone",
-    tech: ["Next.js ", "Tailwind", "MongoDB"],
-    isTopProject: false,
-    isNextjs: true,
-    isMern: false,
-    isHtmlCss: false,
-  },
+  // {
+  //   name: "Threads Clone",
+  //   description: "Threads Clone",
+  //   image: threadsImage,
+  //   link: "https://threads-clone-nextjs-project.vercel.app/",
+  //   repo: "https://github.com/itsyaba/Threads-Clone",
+  //   tech: ["Next.js ", "Tailwind", "MongoDB"],
+  //   isTopProject: false,
+  //   isNextjs: true,
+  //   isMern: false,
+  //   isHtmlCss: false,
+  // },
 ];
 
 const projects = [
@@ -272,25 +272,25 @@ export function ProjectsSection() {
       ),
     },
     {
-      title: "Next.js",
+      title: "MERN",
       value: "nextjs",
       content: (
         <ScrollArea className="w-full overflow-hidden relative h-full rounded-2xl  bg-gradient-to-br from-purple-700 to-violet-900">
-          <p className="text-center text-2xl font-cursive  mt-6">Next Js</p>
-          <ProjectList chosenStack="nextjs" />
+          <p className="text-center text-2xl font-cursive  mt-6">React Js</p>
+          <ProjectList chosenStack="MERN" />
         </ScrollArea>
       ),
     },
-    {
-      title: "MERN Stack",
-      value: "mern",
-      content: (
-        <ScrollArea className="w-full overflow-hidden relative h-full rounded-2xl  bg-gradient-to-br from-purple-700 to-violet-900">
-          <p className="text-center text-2xl font-cursive  mt-6">MERN Stack</p>
-          <ProjectList chosenStack="mern" />
-        </ScrollArea>
-      ),
-    },
+    // {
+    //   title: "MERN Stack",
+    //   value: "mern",
+    //   content: (
+    //     <ScrollArea className="w-full overflow-hidden relative h-full rounded-2xl  bg-gradient-to-br from-purple-700 to-violet-900">
+    //       <p className="text-center text-2xl font-cursive  mt-6">MERN Stack</p>
+    //       <ProjectList chosenStack="mern" />
+    //     </ScrollArea>
+    //   ),
+    // },
     {
       title: "HTML/CSS",
       value: "html-css",

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import memojiImage from "../../public/images/memoji-computer.png";
+import memojiImage from "../../public/images/logo.png";
 import grainImage from "../../public/images/grain.jpg";
 import StarIcon from "../../public/icons/star.svg";
 import SparkleIcon from "../../public/icons/sparkle.svg";
@@ -61,7 +61,7 @@ export const HeroSection = () => {
           <Image
             src={memojiImage}
             alt="person peeking from behind laptop"
-            className="size-[100px] rounded-full"
+            className="size-[200px] md:size-[250px] lg:size-[300px] rounded-full border-4 border-emerald-300/20 shadow-2xl mb-6"
           />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
             <div className="bg-green-500 size-2.5 rounded-full relative">
